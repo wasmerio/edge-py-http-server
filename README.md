@@ -1,4 +1,4 @@
-# Sample Python HTTP Server for Wasmer Edge
+# Sample Python HTTP Server with Wasmer
 
 This is a sample repo for running a python based HTTP server on Wasmer Edge.
 
@@ -19,18 +19,20 @@ This package is published to wasmer registry as [`wasmer/python-http-server`](ht
 
 You can try this locally.
 
-```
+```shell
 wasmer run wasmer/python-http-server --net --env PORT=4333
 ```
+
 This would start an http server on `http://127.0.0.1:4333`
+
+<!-- Add an image -->
+
+![Python Server](server-running.png)
 
 ## Live on Wasmer Edge
 
-This package is deployed on Wasmer Edge.
-
-```
+```text
   App Info
 > App Name: wasmer-python-http-server-worker
 > App URL: https://wasmer-python-http-server-worker.wasmer.app
 ```
-
